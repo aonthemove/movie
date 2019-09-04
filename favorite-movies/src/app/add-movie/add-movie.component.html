@@ -1,0 +1,5 @@
+<input [(ngModel)]="newMovieTitle" class="form-control" placeholder="Title">
+<input [(ngModel)]="newMovieDescription" class="form-control" placeholder="Description">
+<input [(ngModel)]="newMovieImageUrl" class="form-control" placeholder="ImageUrl">
+
+<button (click)="onCreateNewMovie(newMovieTitle, newMovieDescription, newMovieImageUrl)" class="btn btn-success">Add Movie</button>
